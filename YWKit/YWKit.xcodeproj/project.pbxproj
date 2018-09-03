@@ -15,6 +15,7 @@
 		771DD9562137C52400E49774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771DD9542137C52400E49774 /* LaunchScreen.storyboard */; };
 		771DD9592137C52400E49774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 771DD9582137C52400E49774 /* main.m */; };
 		772F9533213CCF1100D18E2B /* NSObject+MGMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F9531213CCF1000D18E2B /* NSObject+MGMessage.m */; };
+		772F9535213D11C900D18E2B /* YWImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772F9534213D11C900D18E2B /* YWImage.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		771DD9582137C52400E49774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		772F9531213CCF1000D18E2B /* NSObject+MGMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MGMessage.m"; sourceTree = "<group>"; };
 		772F9532213CCF1000D18E2B /* NSObject+MGMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MGMessage.h"; sourceTree = "<group>"; };
+		772F9534213D11C900D18E2B /* YWImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YWImage.xcassets; sourceTree = "<group>"; };
 		877CFE984E132F2DDF1D4DF8 /* Pods-YWKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWKit/Pods-YWKit.debug.xcconfig"; sourceTree = "<group>"; };
 		FE5384EF05DB6FD1049D50F2 /* Pods-YWKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWKit/Pods-YWKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 		771DD95F2137C7E700E49774 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				772F9534213D11C900D18E2B /* YWImage.xcassets */,
 				772F9532213CCF1000D18E2B /* NSObject+MGMessage.h */,
 				772F9531213CCF1000D18E2B /* NSObject+MGMessage.m */,
 			);
@@ -135,6 +138,7 @@
 		771DD93E2137C52200E49774 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YW;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "闫威威";
 				TargetAttributes = {
@@ -167,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				771DD9562137C52400E49774 /* LaunchScreen.storyboard in Resources */,
+				772F9535213D11C900D18E2B /* YWImage.xcassets in Resources */,
 				771DD9532137C52400E49774 /* Assets.xcassets in Resources */,
 				771DD9512137C52300E49774 /* Main.storyboard in Resources */,
 			);

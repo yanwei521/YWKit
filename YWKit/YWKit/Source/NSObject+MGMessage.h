@@ -1,8 +1,8 @@
 //
 //  NSObject+MGMessage.h
-//  PublicUIComponents
+
 //
-//  Created by 王旭 on 2018/4/21.
+//  Created by YW on 2018/4/21.
 //  Copyright © 2018年 projectNavigation. All rights reserved.
 //
 
