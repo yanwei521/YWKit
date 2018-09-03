@@ -28,6 +28,7 @@ PODS:
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
+  - AFNetworking
   - Masonry
   - MBProgressHUD
   - MJRefresh
@@ -57,6 +58,6 @@ SPEC CHECKSUMS:
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: dfeaa7f5569b20e0835bc746b67f9af47977a446
+PODFILE CHECKSUM: 981643c89cecb5e3703eca539dc1e7ac94aa5311
 
 COCOAPODS: 1.5.2

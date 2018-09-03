@@ -118,6 +118,10 @@
 				771DD95F2137C7E700E49774 /* Source */,
 				771DD9492137C52200E49774 /* AppDelegate.h */,
 				771DD94A2137C52300E49774 /* AppDelegate.m */,
+				772F9543213D1A0500D18E2B /* UIView+MGTAddition.h */,
+				772F9542213D1A0500D18E2B /* UIView+MGTAddition.m */,
+				772F9536213D161300D18E2B /* NSObject+NetworkInfo.h */,
+				772F9537213D161300D18E2B /* NSObject+NetworkInfo.m */,
 				771DD94C2137C52300E49774 /* ViewController.h */,
 				771DD94D2137C52300E49774 /* ViewController.m */,
 				771DD94F2137C52300E49774 /* Main.storyboard */,
@@ -155,10 +159,6 @@
 				772F9548213D1B2B00D18E2B /* UIColor+MGTAddition.m */,
 				772F9545213D1B1B00D18E2B /* UIDevice+MGTAddition.h */,
 				772F9546213D1B1C00D18E2B /* UIDevice+MGTAddition.m */,
-				772F9543213D1A0500D18E2B /* UIView+MGTAddition.h */,
-				772F9542213D1A0500D18E2B /* UIView+MGTAddition.m */,
-				772F9536213D161300D18E2B /* NSObject+NetworkInfo.h */,
-				772F9537213D161300D18E2B /* NSObject+NetworkInfo.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
