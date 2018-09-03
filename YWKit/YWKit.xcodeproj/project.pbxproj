@@ -26,6 +26,8 @@
 		772F9559213D1C0800D18E2B /* NSData+MGTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F9557213D1C0800D18E2B /* NSData+MGTAddition.m */; };
 		772F955C213D1C7300D18E2B /* MGTKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F955B213D1C7300D18E2B /* MGTKeyboard.m */; };
 		772F955F213D1CAD00D18E2B /* CALayer+MGTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F955E213D1CAD00D18E2B /* CALayer+MGTAddition.m */; };
+		772F9562213D1F0400D18E2B /* NSNumber+MGTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F9560213D1F0400D18E2B /* NSNumber+MGTAddition.m */; };
+		772F9565213D1F4000D18E2B /* MGTCGUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F9564213D1F4000D18E2B /* MGTCGUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,10 @@
 		772F955B213D1C7300D18E2B /* MGTKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTKeyboard.m; sourceTree = "<group>"; };
 		772F955D213D1CAD00D18E2B /* CALayer+MGTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+MGTAddition.h"; sourceTree = "<group>"; };
 		772F955E213D1CAD00D18E2B /* CALayer+MGTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+MGTAddition.m"; sourceTree = "<group>"; };
+		772F9560213D1F0400D18E2B /* NSNumber+MGTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MGTAddition.m"; sourceTree = "<group>"; };
+		772F9561213D1F0400D18E2B /* NSNumber+MGTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MGTAddition.h"; sourceTree = "<group>"; };
+		772F9563213D1F4000D18E2B /* MGTCGUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTCGUtil.h; sourceTree = "<group>"; };
+		772F9564213D1F4000D18E2B /* MGTCGUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTCGUtil.m; sourceTree = "<group>"; };
 		877CFE984E132F2DDF1D4DF8 /* Pods-YWKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWKit/Pods-YWKit.debug.xcconfig"; sourceTree = "<group>"; };
 		FE5384EF05DB6FD1049D50F2 /* Pods-YWKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWKit/Pods-YWKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +135,10 @@
 				772F9534213D11C900D18E2B /* YWImage.xcassets */,
 				772F955D213D1CAD00D18E2B /* CALayer+MGTAddition.h */,
 				772F955E213D1CAD00D18E2B /* CALayer+MGTAddition.m */,
+				772F9563213D1F4000D18E2B /* MGTCGUtil.h */,
+				772F9564213D1F4000D18E2B /* MGTCGUtil.m */,
+				772F9561213D1F0400D18E2B /* NSNumber+MGTAddition.h */,
+				772F9560213D1F0400D18E2B /* NSNumber+MGTAddition.m */,
 				772F955A213D1C7200D18E2B /* MGTKeyboard.h */,
 				772F955B213D1C7300D18E2B /* MGTKeyboard.m */,
 				772F9554213D1C0700D18E2B /* NSData+MGTAddition.h */,
@@ -275,10 +285,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				772F955F213D1CAD00D18E2B /* CALayer+MGTAddition.m in Sources */,
+				772F9562213D1F0400D18E2B /* NSNumber+MGTAddition.m in Sources */,
 				772F9553213D1BCE00D18E2B /* NSString+MGTAddition.m in Sources */,
 				772F9559213D1C0800D18E2B /* NSData+MGTAddition.m in Sources */,
 				772F9538213D161400D18E2B /* NSObject+NetworkInfo.m in Sources */,
 				771DD94E2137C52300E49774 /* ViewController.m in Sources */,
+				772F9565213D1F4000D18E2B /* MGTCGUtil.m in Sources */,
 				772F9552213D1BCE00D18E2B /* NSObject+MGTAddition.m in Sources */,
 				771DD9592137C52400E49774 /* main.m in Sources */,
 				772F955C213D1C7300D18E2B /* MGTKeyboard.m in Sources */,
@@ -432,7 +444,10 @@
 				DEVELOPMENT_TEAM = 9C8439L29Q;
 				INFOPLIST_FILE = YWKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yw.YWKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "54a5fdaf-a6a5-41bd-8807-3ff3baff6e30";
@@ -450,7 +465,10 @@
 				DEVELOPMENT_TEAM = 9C8439L29Q;
 				INFOPLIST_FILE = YWKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yw.YWKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "54a5fdaf-a6a5-41bd-8807-3ff3baff6e30";

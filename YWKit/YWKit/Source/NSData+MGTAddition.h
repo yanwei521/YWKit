@@ -2,7 +2,7 @@
 //  NSData+MGTAddition.h
 //  MGTCategories
 //
-//  Created by zhaohao on 2018/6/26.
+//  Created by YW on 2018/6/26.
 //  Copyright © 2018年 MIGU VIDEO Co., Ltd. All rights reserved.
 //
 
@@ -11,52 +11,52 @@
 @interface NSData (MGTAddition)
 
 /**
- Returns a lowercase NSString for md5 hash.
+ 返回的MD5加密 -小写String.
  */
 - (NSString *)mgt_md5String;
 
 /**
- Returns an NSData for md5 hash.
+ 返回的MD5加密 -data.
  */
 - (NSData *)mgt_md5Data;
 
 /**
- Returns a lowercase NSString for sha1 hash.
+ 返回的sha1加密 -小写String.
  */
 - (NSString *)mgt_sha1String;
 
 /**
- Returns an NSData for sha1 hash.
+ 返回的sha1加密 -data.
  */
 - (NSData *)mgt_sha1Data;
 
 /**
- Returns a lowercase NSString for sha256 hash.
+ 返回的sha256加密 -小写String.
  */
 - (NSString *)mgt_sha256String;
 
 /**
- Returns an NSData for sha256 hash.
+ 返回的sha256加密 -data.
  */
 - (NSData *)mgt_sha256Data;
 
 /**
- Returns a lowercase NSString for sha512 hash.
+ 返回的sha512加密 -小写String.
  */
 - (NSString *)mgt_sha512String;
 
 /**
- Returns an NSData for sha512 hash.
+ 返回的sha512加密 -data.
  */
 - (NSData *)mgt_sha512Data;
 
 /**
- Returns string decoded in UTF8.
+ 返回UTF8编码.
  */
 - (nullable NSString *)mgt_utf8String;
 
 /**
- Returns an NSString for base64 encoded.
+ 返回base64编码.
  */
 - (nullable NSString *)mgt_base64EncodedString;
 
@@ -70,8 +70,8 @@
 + (nullable NSData *)mgt_dataWithBase64EncodedString:(NSString *)base64EncodedString;
 
 /**
- Returns an NSDictionary or NSArray for decoded self.
- Returns nil if an error occurs.
+ 返回一个用于自我的解码NSDictionary或NSArray。
+ 如果发生错误，则返回零。
  */
 - (nullable id)mgt_jsonValueDecoded;
 

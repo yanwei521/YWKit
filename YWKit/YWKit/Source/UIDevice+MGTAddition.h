@@ -2,7 +2,7 @@
 //  UIDevice+MGTAddition.h
 //  MGTCategories
 //
-//  Created by zhaohao on 2018/6/26.
+//  Created by YW on 2018/6/26.
 //  Copyright © 2018年 MIGU VIDEO Co., Ltd. All rights reserved.
 //
 
@@ -10,23 +10,23 @@
 
 @interface UIDevice (MGTAddition)
 
-/// Device system version (e.g. 8.1)
+/// 设备系统版本 (e.g. 8.1)
 + (double)systemVersion;
 
-/// Whether the device is iPad/iPad mini.
+/// 设备是否是 iPad/iPad mini.
 @property (nonatomic, readonly) BOOL isPad;
 
-/// Whether the device is a simulator.
+/// 该设备是否是模拟器.
 @property (nonatomic, readonly) BOOL isSimulator;
 
-/// Whether the device is jailbroken.
+/// 是否设备被破解.
 @property (nonatomic, readonly) BOOL isJailbroken;
 
-/// The device's machine model.  e.g. "iPhone6,1" "iPad4,6"
+/// 设备的机器模型  (e.g. "iPhone6,1" "iPad4,6)"
 /// @see http://theiphonewiki.com/wiki/Models
 @property (nullable, nonatomic, readonly) NSString *machineModel;
 
-/// The device's machine model name. e.g. "iPhone 5s" "iPad mini 2"
+/// 设备的机器模型名称. (e.g. "iPhone 5s" "iPad mini 2)"
 /// @see http://theiphonewiki.com/wiki/Models
 @property (nullable, nonatomic, readonly) NSString *machineModelName;
 

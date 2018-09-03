@@ -2,7 +2,7 @@
 //  UIColor+MGTAddition.h
 //  MGTCategories
 //
-//  Created by zhaohao on 2018/6/7.
+//  Created by YW on 2018/6/7.
 //  Copyright © 2018年 MIGU VIDEO Co., Ltd. All rights reserved.
 //
 
@@ -11,44 +11,44 @@
 @interface UIColor (MGTAddition)
 
 /**
- The color's red component value in RGB color space.
- The value of this property is a float in the range `0.0` to `1.0`.
+ 颜色在RGB颜色空间中的红色分量值。
+ 此属性的值是在“0”到“1”范围内的浮点。
  */
 @property (nonatomic, readonly) CGFloat red;
 
 /**
- The color's green component value in RGB color space.
- The value of this property is a float in the range `0.0` to `1.0`.
+ 颜色在RGB颜色空间中的绿色分量值。
+ 此属性的值是在“0”到“1”范围内的浮点。
  */
 @property (nonatomic, readonly) CGFloat green;
 
 /**
- The color's blue component value in RGB color space.
- The value of this property is a float in the range `0.0` to `1.0`.
+ RGB颜色空间中的蓝色分量值。
+ 此属性的值是在“0”到“1”范围内的浮点。
  */
 @property (nonatomic, readonly) CGFloat blue;
 
 /**
- The color's hue component value in HSB color space.
- The value of this property is a float in the range `0.0` to `1.0`.
+ 颜色在HSB颜色空间中的色调分量值。
+ 此属性的值是在“0”到“1”范围内的浮点。
  */
 @property (nonatomic, readonly) CGFloat hue;
 
 /**
- The color's saturation component value in HSB color space.
- The value of this property is a float in the range `0.0` to `1.0`.
+ 颜色在HSB颜色空间中的饱和分量值。
+ 此属性的值是在“0”到“1”范围内的浮点。
  */
 @property (nonatomic, readonly) CGFloat saturation;
 
 /**
- The color's brightness component value in HSB color space.
- The value of this property is a float in the range `0.0` to `1.0`.
+ 颜色在HSB颜色空间中的亮度分量值。
+ 此属性的值是在“0”到“1”范围内的浮点。
  */
 @property (nonatomic, readonly) CGFloat brightness;
 
 /**
- The color's alpha component value.
- The value of this property is a float in the range `0.0` to `1.0`.
+ 颜色的α成分值。
+ 此属性的值是在“0”到“1”范围内的浮点。
  */
 @property (nonatomic, readonly) CGFloat alpha;
 

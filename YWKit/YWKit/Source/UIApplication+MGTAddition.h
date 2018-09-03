@@ -2,7 +2,7 @@
 //  UIApplication+MGTAddition.h
 //  MGTCategories
 //
-//  Created by zhaohao on 2018/6/26.
+//  Created by YW on 2018/6/26.
 //  Copyright © 2018年 MIGU VIDEO Co., Ltd. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  NSObject+MGTAddition.h
 //  MGTCategories
 //
-//  Created by zhaohao on 2018/6/26.
+//  Created by YW on 2018/6/26.
 //  Copyright © 2018年 MIGU VIDEO Co., Ltd. All rights reserved.
 //
 
@@ -11,7 +11,7 @@
 @interface NSObject (MGTAddition)
 
 /**
- Swap two instance method's implementation in one class. Dangerous, be careful.
+ 在一个类中交换两个实例方法的实现. Dangerous, be careful.
  
  @param originalSel   Selector 1.
  @param newSel        Selector 2.
@@ -20,7 +20,7 @@
 + (BOOL)mgt_swizzleInstanceMethod:(SEL)originalSel with:(SEL)newSel;
 
 /**
- Swap two class method's implementation in one class. Dangerous, be careful.
+ 在一个类中交换两个类方法的实现. Dangerous, be careful.
  
  @param originalSel   Selector 1.
  @param newSel        Selector 2.
@@ -45,24 +45,24 @@
 - (void)mgt_setAssociateWeakValue:(nullable id)value withKey:(void *)key;
 
 /**
- Get the associated value from `self`.
+ 从“self”中获取相关的值.
  
  @param key The pointer to get value from `self`.
  */
 - (nullable id)mgt_getAssociatedValueForKey:(void *)key;
 
 /**
- Remove all associated values.
+ 删除所有相关的值.
  */
 - (void)mgt_removeAssociatedValues;
 
 /**
- Returns the class name in NSString.
+ 返回的类名.
  */
 + (NSString *)mgt_className;
 
 /**
- Returns the class name in NSString.
+ 返回中的类名.
  
  @discussion Apple has implemented this method in NSObject(NSLayoutConstraintCallsThis),
  but did not make it public.

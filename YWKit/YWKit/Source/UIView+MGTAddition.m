@@ -2,7 +2,7 @@
 //  UIView+XMGExtension.m
 //  migu
 //
-//  Created by 咪咕 on 16/3/18.
+//  Created by YW on 16/3/18.
 //  Copyright © 2016年 咪咕. All rights reserved.
 //
 

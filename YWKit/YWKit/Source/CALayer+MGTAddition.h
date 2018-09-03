@@ -2,7 +2,7 @@
 //  CALayer+MGTAddition.h
 //  MGTCategories
 //
-//  Created by zhaohao on 2018/6/26.
+//  Created by YW on 2018/6/26.
 //  Copyright © 2018年 MIGU VIDEO Co., Ltd. All rights reserved.
 //
 
@@ -37,18 +37,18 @@
 @property (nonatomic) CGFloat transformTranslationZ; ///< key path "tranform.translation.z"
 
 /**
- Shortcut for transform.m34, -1/1000 is a good value.
- It should be set before other transform shortcut.
+ 转换的捷径, -1~1000 .
+ 应该在其他转换快捷方式之前设置.
  */
 @property (nonatomic) CGFloat transformDepth;
 
 /**
- Wrapper for `contentsGravity` property.
+ 用于“内容重力”属性的包装器。
  */
 @property (nonatomic) UIViewContentMode contentMode;
 
 /**
- Remove all sublayers.
+ 移除所有子层。
  */
 - (void)mgt_removeAllSublayers;
 

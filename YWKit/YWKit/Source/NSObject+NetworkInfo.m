@@ -2,7 +2,7 @@
 //  NSObject+NetworkInfo.m
 //  MGTShortVideo
 //
-//  Created by 王旭 on 2018/8/10.
+//  Created by YW on 2018/8/10.
 //  Copyright © 2018年 MIGU VIDEO Co., Ltd. All rights reserved.
 //
 
