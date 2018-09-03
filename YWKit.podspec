@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "YWKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "YWKit summary"
   s.homepage     = "https://github.com/TimorLeader/YWKit/tree/master"
   s.license      = "MIT"
@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.frameworks = 'UIKit'
   s.dependency "Masonry", "1.1.0"
+  s.dependency "MBProgressHUD"
 
 
 # s.resources = ["MGTStatistics/MGTStatistics/**/*.{xib, plist}", "MGTStatistics/MGTStatistics/Resource/**/*.png"]
