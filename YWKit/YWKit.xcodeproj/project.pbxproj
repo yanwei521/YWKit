@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DAFFEA57A24FAC09B7A1608 /* libPods-YWKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4FFA875CFBE3B590D89F6A /* libPods-YWKit.a */; };
 		771DD94B2137C52300E49774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 771DD94A2137C52300E49774 /* AppDelegate.m */; };
 		771DD94E2137C52300E49774 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 771DD94D2137C52300E49774 /* ViewController.m */; };
 		771DD9512137C52300E49774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771DD94F2137C52300E49774 /* Main.storyboard */; };
 		771DD9532137C52400E49774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771DD9522137C52400E49774 /* Assets.xcassets */; };
 		771DD9562137C52400E49774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771DD9542137C52400E49774 /* LaunchScreen.storyboard */; };
 		771DD9592137C52400E49774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 771DD9582137C52400E49774 /* main.m */; };
+		772F9533213CCF1100D18E2B /* NSObject+MGMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F9531213CCF1000D18E2B /* NSObject+MGMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B4FFA875CFBE3B590D89F6A /* libPods-YWKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YWKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		771DD9462137C52200E49774 /* YWKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		771DD9492137C52200E49774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		771DD94A2137C52300E49774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,10 @@
 		771DD9552137C52400E49774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		771DD9572137C52400E49774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		771DD9582137C52400E49774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		772F9531213CCF1000D18E2B /* NSObject+MGMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MGMessage.m"; sourceTree = "<group>"; };
+		772F9532213CCF1000D18E2B /* NSObject+MGMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MGMessage.h"; sourceTree = "<group>"; };
+		877CFE984E132F2DDF1D4DF8 /* Pods-YWKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWKit/Pods-YWKit.debug.xcconfig"; sourceTree = "<group>"; };
+		FE5384EF05DB6FD1049D50F2 /* Pods-YWKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWKit/Pods-YWKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DAFFEA57A24FAC09B7A1608 /* libPods-YWKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21F0B254DBF9DDEF4D259B23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				877CFE984E132F2DDF1D4DF8 /* Pods-YWKit.debug.xcconfig */,
+				FE5384EF05DB6FD1049D50F2 /* Pods-YWKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		771DD93D2137C52200E49774 = {
 			isa = PBXGroup;
 			children = (
 				771DD9482137C52200E49774 /* YWKit */,
 				771DD9472137C52200E49774 /* Products */,
+				21F0B254DBF9DDEF4D259B23 /* Pods */,
+				D2C8A3BB15A4070A964B13CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +80,8 @@
 				771DD95F2137C7E700E49774 /* Source */,
 				771DD9492137C52200E49774 /* AppDelegate.h */,
 				771DD94A2137C52300E49774 /* AppDelegate.m */,
+				771DD94C2137C52300E49774 /* ViewController.h */,
+				771DD94D2137C52300E49774 /* ViewController.m */,
 				771DD94F2137C52300E49774 /* Main.storyboard */,
 				771DD9522137C52400E49774 /* Assets.xcassets */,
 				771DD9542137C52400E49774 /* LaunchScreen.storyboard */,
@@ -73,10 +94,18 @@
 		771DD95F2137C7E700E49774 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				771DD94C2137C52300E49774 /* ViewController.h */,
-				771DD94D2137C52300E49774 /* ViewController.m */,
+				772F9532213CCF1000D18E2B /* NSObject+MGMessage.h */,
+				772F9531213CCF1000D18E2B /* NSObject+MGMessage.m */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		D2C8A3BB15A4070A964B13CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B4FFA875CFBE3B590D89F6A /* libPods-YWKit.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +115,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 771DD95C2137C52400E49774 /* Build configuration list for PBXNativeTarget "YWKit" */;
 			buildPhases = (
+				7A1D62F75531FE692E69F3AB /* [CP] Check Pods Manifest.lock */,
 				771DD9422137C52200E49774 /* Sources */,
 				771DD9432137C52200E49774 /* Frameworks */,
 				771DD9442137C52200E49774 /* Resources */,
@@ -144,6 +174,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7A1D62F75531FE692E69F3AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YWKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		771DD9422137C52200E49774 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -152,6 +203,7 @@
 				771DD94E2137C52300E49774 /* ViewController.m in Sources */,
 				771DD9592137C52400E49774 /* main.m in Sources */,
 				771DD94B2137C52300E49774 /* AppDelegate.m in Sources */,
+				772F9533213CCF1100D18E2B /* NSObject+MGMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +341,7 @@
 		};
 		771DD95D2137C52400E49774 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877CFE984E132F2DDF1D4DF8 /* Pods-YWKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,6 +358,7 @@
 		};
 		771DD95E2137C52400E49774 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5384EF05DB6FD1049D50F2 /* Pods-YWKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
