@@ -14,8 +14,18 @@
 		771DD9532137C52400E49774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771DD9522137C52400E49774 /* Assets.xcassets */; };
 		771DD9562137C52400E49774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771DD9542137C52400E49774 /* LaunchScreen.storyboard */; };
 		771DD9592137C52400E49774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 771DD9582137C52400E49774 /* main.m */; };
-		772F9533213CCF1100D18E2B /* NSObject+MGMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F9531213CCF1000D18E2B /* NSObject+MGMessage.m */; };
 		772F9535213D11C900D18E2B /* YWImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772F9534213D11C900D18E2B /* YWImage.xcassets */; };
+		772F9538213D161400D18E2B /* NSObject+NetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F9537213D161300D18E2B /* NSObject+NetworkInfo.m */; };
+		772F9544213D1A0500D18E2B /* UIView+MGTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F9542213D1A0500D18E2B /* UIView+MGTAddition.m */; };
+		772F9547213D1B1C00D18E2B /* UIDevice+MGTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F9546213D1B1C00D18E2B /* UIDevice+MGTAddition.m */; };
+		772F954A213D1B2C00D18E2B /* UIColor+MGTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F9548213D1B2B00D18E2B /* UIColor+MGTAddition.m */; };
+		772F954D213D1B7D00D18E2B /* UIApplication+MGTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F954C213D1B7D00D18E2B /* UIApplication+MGTAddition.m */; };
+		772F9552213D1BCE00D18E2B /* NSObject+MGTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F954E213D1BCD00D18E2B /* NSObject+MGTAddition.m */; };
+		772F9553213D1BCE00D18E2B /* NSString+MGTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F954F213D1BCD00D18E2B /* NSString+MGTAddition.m */; };
+		772F9558213D1C0800D18E2B /* NSDate+MGTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F9556213D1C0700D18E2B /* NSDate+MGTAddition.m */; };
+		772F9559213D1C0800D18E2B /* NSData+MGTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F9557213D1C0800D18E2B /* NSData+MGTAddition.m */; };
+		772F955C213D1C7300D18E2B /* MGTKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F955B213D1C7300D18E2B /* MGTKeyboard.m */; };
+		772F955F213D1CAD00D18E2B /* CALayer+MGTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F955E213D1CAD00D18E2B /* CALayer+MGTAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +40,29 @@
 		771DD9552137C52400E49774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		771DD9572137C52400E49774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		771DD9582137C52400E49774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		772F9531213CCF1000D18E2B /* NSObject+MGMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MGMessage.m"; sourceTree = "<group>"; };
-		772F9532213CCF1000D18E2B /* NSObject+MGMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MGMessage.h"; sourceTree = "<group>"; };
 		772F9534213D11C900D18E2B /* YWImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YWImage.xcassets; sourceTree = "<group>"; };
+		772F9536213D161300D18E2B /* NSObject+NetworkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NetworkInfo.h"; sourceTree = "<group>"; };
+		772F9537213D161300D18E2B /* NSObject+NetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NetworkInfo.m"; sourceTree = "<group>"; };
+		772F9542213D1A0500D18E2B /* UIView+MGTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MGTAddition.m"; sourceTree = "<group>"; };
+		772F9543213D1A0500D18E2B /* UIView+MGTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MGTAddition.h"; sourceTree = "<group>"; };
+		772F9545213D1B1B00D18E2B /* UIDevice+MGTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+MGTAddition.h"; sourceTree = "<group>"; };
+		772F9546213D1B1C00D18E2B /* UIDevice+MGTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+MGTAddition.m"; sourceTree = "<group>"; };
+		772F9548213D1B2B00D18E2B /* UIColor+MGTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MGTAddition.m"; sourceTree = "<group>"; };
+		772F9549213D1B2B00D18E2B /* UIColor+MGTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MGTAddition.h"; sourceTree = "<group>"; };
+		772F954B213D1B7D00D18E2B /* UIApplication+MGTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+MGTAddition.h"; sourceTree = "<group>"; };
+		772F954C213D1B7D00D18E2B /* UIApplication+MGTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+MGTAddition.m"; sourceTree = "<group>"; };
+		772F954E213D1BCD00D18E2B /* NSObject+MGTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MGTAddition.m"; sourceTree = "<group>"; };
+		772F954F213D1BCD00D18E2B /* NSString+MGTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MGTAddition.m"; sourceTree = "<group>"; };
+		772F9550213D1BCD00D18E2B /* NSObject+MGTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MGTAddition.h"; sourceTree = "<group>"; };
+		772F9551213D1BCE00D18E2B /* NSString+MGTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MGTAddition.h"; sourceTree = "<group>"; };
+		772F9554213D1C0700D18E2B /* NSData+MGTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MGTAddition.h"; sourceTree = "<group>"; };
+		772F9555213D1C0700D18E2B /* NSDate+MGTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MGTAddition.h"; sourceTree = "<group>"; };
+		772F9556213D1C0700D18E2B /* NSDate+MGTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MGTAddition.m"; sourceTree = "<group>"; };
+		772F9557213D1C0800D18E2B /* NSData+MGTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MGTAddition.m"; sourceTree = "<group>"; };
+		772F955A213D1C7200D18E2B /* MGTKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTKeyboard.h; sourceTree = "<group>"; };
+		772F955B213D1C7300D18E2B /* MGTKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTKeyboard.m; sourceTree = "<group>"; };
+		772F955D213D1CAD00D18E2B /* CALayer+MGTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+MGTAddition.h"; sourceTree = "<group>"; };
+		772F955E213D1CAD00D18E2B /* CALayer+MGTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+MGTAddition.m"; sourceTree = "<group>"; };
 		877CFE984E132F2DDF1D4DF8 /* Pods-YWKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWKit/Pods-YWKit.debug.xcconfig"; sourceTree = "<group>"; };
 		FE5384EF05DB6FD1049D50F2 /* Pods-YWKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWKit/Pods-YWKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,8 +127,28 @@
 			isa = PBXGroup;
 			children = (
 				772F9534213D11C900D18E2B /* YWImage.xcassets */,
-				772F9532213CCF1000D18E2B /* NSObject+MGMessage.h */,
-				772F9531213CCF1000D18E2B /* NSObject+MGMessage.m */,
+				772F955D213D1CAD00D18E2B /* CALayer+MGTAddition.h */,
+				772F955E213D1CAD00D18E2B /* CALayer+MGTAddition.m */,
+				772F955A213D1C7200D18E2B /* MGTKeyboard.h */,
+				772F955B213D1C7300D18E2B /* MGTKeyboard.m */,
+				772F9554213D1C0700D18E2B /* NSData+MGTAddition.h */,
+				772F9557213D1C0800D18E2B /* NSData+MGTAddition.m */,
+				772F9555213D1C0700D18E2B /* NSDate+MGTAddition.h */,
+				772F9556213D1C0700D18E2B /* NSDate+MGTAddition.m */,
+				772F9550213D1BCD00D18E2B /* NSObject+MGTAddition.h */,
+				772F954E213D1BCD00D18E2B /* NSObject+MGTAddition.m */,
+				772F9551213D1BCE00D18E2B /* NSString+MGTAddition.h */,
+				772F954F213D1BCD00D18E2B /* NSString+MGTAddition.m */,
+				772F954B213D1B7D00D18E2B /* UIApplication+MGTAddition.h */,
+				772F954C213D1B7D00D18E2B /* UIApplication+MGTAddition.m */,
+				772F9549213D1B2B00D18E2B /* UIColor+MGTAddition.h */,
+				772F9548213D1B2B00D18E2B /* UIColor+MGTAddition.m */,
+				772F9545213D1B1B00D18E2B /* UIDevice+MGTAddition.h */,
+				772F9546213D1B1C00D18E2B /* UIDevice+MGTAddition.m */,
+				772F9543213D1A0500D18E2B /* UIView+MGTAddition.h */,
+				772F9542213D1A0500D18E2B /* UIView+MGTAddition.m */,
+				772F9536213D161300D18E2B /* NSObject+NetworkInfo.h */,
+				772F9537213D161300D18E2B /* NSObject+NetworkInfo.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -122,6 +172,7 @@
 				771DD9422137C52200E49774 /* Sources */,
 				771DD9432137C52200E49774 /* Frameworks */,
 				771DD9442137C52200E49774 /* Resources */,
+				2F9F9A04C24D8B15C740231D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +231,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2F9F9A04C24D8B15C740231D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YWKit/Pods-YWKit-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YWKit/Pods-YWKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7A1D62F75531FE692E69F3AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,10 +274,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772F955F213D1CAD00D18E2B /* CALayer+MGTAddition.m in Sources */,
+				772F9553213D1BCE00D18E2B /* NSString+MGTAddition.m in Sources */,
+				772F9559213D1C0800D18E2B /* NSData+MGTAddition.m in Sources */,
+				772F9538213D161400D18E2B /* NSObject+NetworkInfo.m in Sources */,
 				771DD94E2137C52300E49774 /* ViewController.m in Sources */,
+				772F9552213D1BCE00D18E2B /* NSObject+MGTAddition.m in Sources */,
 				771DD9592137C52400E49774 /* main.m in Sources */,
+				772F955C213D1C7300D18E2B /* MGTKeyboard.m in Sources */,
 				771DD94B2137C52300E49774 /* AppDelegate.m in Sources */,
-				772F9533213CCF1100D18E2B /* NSObject+MGMessage.m in Sources */,
+				772F9547213D1B1C00D18E2B /* UIDevice+MGTAddition.m in Sources */,
+				772F954A213D1B2C00D18E2B /* UIColor+MGTAddition.m in Sources */,
+				772F9544213D1A0500D18E2B /* UIView+MGTAddition.m in Sources */,
+				772F9558213D1C0800D18E2B /* NSDate+MGTAddition.m in Sources */,
+				772F954D213D1B7D00D18E2B /* UIApplication+MGTAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,10 +432,7 @@
 				DEVELOPMENT_TEAM = 9C8439L29Q;
 				INFOPLIST_FILE = YWKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yw.YWKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "54a5fdaf-a6a5-41bd-8807-3ff3baff6e30";
@@ -374,10 +450,7 @@
 				DEVELOPMENT_TEAM = 9C8439L29Q;
 				INFOPLIST_FILE = YWKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yw.YWKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "54a5fdaf-a6a5-41bd-8807-3ff3baff6e30";

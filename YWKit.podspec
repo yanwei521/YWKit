@@ -11,4 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.frameworks = 'UIKit'
   s.dependency "Masonry", "1.1.0"
+
+
+# s.resources = ["MGTStatistics/MGTStatistics/**/*.{xib, plist}", "MGTStatistics/MGTStatistics/Resource/**/*.png"]
 end
