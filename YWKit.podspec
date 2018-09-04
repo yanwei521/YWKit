@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "YWKit"
-  s.version      = "0.0.3"
+  s.version      = "0.0.5"
   s.summary      = "YWKit summary"
   s.homepage     = "https://github.com/TimorLeader/YWKit/tree/master"
   s.license      = "MIT"
