@@ -1,13 +1,14 @@
 Pod::Spec.new do |s|
   s.name          = "YWKit"
 
-  s.version       = "0.0.9"
+  s.version       = "0.0.10"
 
-  s.summary       = "YWKit summary"
+  s.summary       = "YWKit--summary"
 
   s.homepage      = "https://github.com/TimorLeader/YWKit/tree/master"
 
-  s.license       = "MIT"
+#s.license       = "MIT"
+  s.license= { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "yanwei" => "654811239@qq.com" }
 
