@@ -7,7 +7,7 @@
 //
 
 #import "UIView+MGTAddition.h"
-#import <MBProgressHUD.h>
+
 
 @implementation UIView (MGTAddition)
 

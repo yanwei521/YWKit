@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <MBProgressHUD.h>
 @interface UIView (MGTAddition)
 
 @property (nonatomic, assign)CGFloat x;    ///< Shortcut for frame.origin.x.
